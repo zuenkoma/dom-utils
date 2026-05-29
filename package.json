@@ -1,0 +1,29 @@
+{
+  "name": "dom-utils",
+  "description": "A lightweight DOM manipulation library",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./create": "./dist/create/index.js",
+    "./parse": "./dist/parse/index.js",
+    "./element": "./dist/element.js",
+    "./load": "./dist/load.js",
+    "./node": "./dist/node.js",
+    "./query": "./dist/query.js",
+    "./xpath": "./dist/xpath.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
